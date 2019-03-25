@@ -1,0 +1,24 @@
+{
+  "name": "teste-joi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-contract": "mocha test/contracts/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.2",
+    "coffeescript": "^2.3.2",
+    "joi": "^14.3.1",
+    "joi-assert": "0.0.3",
+    "mocha": "^6.0.2",
+    "mochawesome": "^3.1.1",
+    "supertest": "^4.0.2"
+  }
+}
